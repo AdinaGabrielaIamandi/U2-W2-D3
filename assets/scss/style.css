@@ -3,4 +3,46 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+button {
+  padding: 0.4em 1.5em;
+  background-color: #ff8360;
+  border-radius: 10px;
+  border: none;
+}
+
+header nav img {
+  width: 100px;
+}
+
+nav {
+  padding: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8e288;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  padding-right: 1.2em;
+  font-size: 1.2em;
+}
+
+nav ul li:hover {
+  cursor: pointer;
+}
+
+nav input {
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */
